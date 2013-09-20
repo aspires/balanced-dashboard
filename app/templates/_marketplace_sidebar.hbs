@@ -5,5 +5,7 @@
 
 <li class="add-customer label4b">{{#linkTo 'marketplace.add_customer' }}Add<br>Customer{{/linkTo}}</li>
 <li class="pay-seller label4b"><a href="#" {{action openPaySellerModal}}>Pay A Seller</a></li>
+<li class="mass-pay label4b"><a href="#" {{action openMassPayModal}}>Mass Pay</a></li>
 
+{{view Balanced.MassPayModalView}}
 {{view Balanced.PaySellerModalView}}
